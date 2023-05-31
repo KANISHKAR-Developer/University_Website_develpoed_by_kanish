@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "poppins",sans-serif;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  background-color: rgba(0, 0, 0, 0.473);
+}
+
+/* navbar */
+
+.bold{
+  font-size: 25px;
+}
+#navbar{
+  border-radius: 5px;
+}
+
+li{
+  padding: 5px;
+}
+.nav-link{
+  font-size: 15px;
+  font-weight: bold;
+  border: 2p solid transparent;
+  /* color: blue; */
+}
+.nav-link:hover{
+  border-bottom: 2px solid blue;
+  transition: .1s;
+  color: blue;
+}
+section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navbar{
+  position:sticky;
+  top: 0;
+  background-color:rgba(0, 0, 0, 0.116);
+  z-index: 10;
+}
+#navbar a{
+    color:black;
+}
+#navbar a:hover{
+    color: blue;
+    transition: .1s;
+}
+#navbar b{
+    color: blue;
+}
+
+/* home */
+span{
+  color: blue;
+  font-weight: bold;
+}
+p{
+  font-size: 18px;
+
+}
+#home img{
+  border-radius: 10px;
+}
+
+#carouselimg img{
+    width: 400px;
+    height: 400px;
+}
+/* .gg{
+  background-color: blue;
+  color: white;
+} */
+
+/* about */
+
+#about img{
+  width: 30rem;
+  height: 25rem;
+  border-radius: 10px;
+}
+
+/* servics */
+
+.card img{
+  height: 300px;
+  transition: 1s;
+}
+.inner{
+  overflow: hidden;
+}
+.card img:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+#servics h1{
+    color: blue;
+}
+#servics h5{
+    color: rgb(34, 34, 223);
+}
+/* contact */
+
+form{
+  padding: 40px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,.2),2px 2px 12px rgba(0,0,0,.2);
+  border-radius: 30px;
+  background-color: rgb(3, 3, 44);
+  color: aliceblue;
+}
+form input{
+    margin: 20px 0px;
+    
+}
+/* skill bar */
+.sb{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+.sb label{
+    margin: 20px;
+    color: black;
+    font-size: medium;
+}
+/* table */
+#table h1{
+  color: blue;
+}
+.hredit{
+  width: 10%;
+  height: 5px;
+  background-color: blue;
+  color: rgb(174, 0, 255);
+  position:relative;
+  left: 45%;
+}
+.sbedit{
+  width: 40%;
+  height: 5px;
+  background-color: blue;
+  color: rgb(174, 0, 255);
+  position:relative;
+  left: 30%;
+}
+
+/* contact img */
+
+#contact img{
+width: 30px;
+height: 30px;
+
+}
+#contact p{
+  padding: 10px;
+
+  }
+  .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  #contact p:hover img{
+    transform: scale(1.5);
+    transition: 1s;
+  }
+  .social img{
+    margin-left: 40px;
+  }
+  .social img:hover{
+    transform:scale(1.5);
+    transition: 1s;
+  }
